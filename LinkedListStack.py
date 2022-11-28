@@ -15,10 +15,7 @@ class LinkedListStack:
         return self._counter
 
     def is_empty(self):
-        if self._counter == 0:
-            return True
-        else:
-            return False
+        return self._counter == 0
 
     def push(self, data):
         if self.is_empty():
