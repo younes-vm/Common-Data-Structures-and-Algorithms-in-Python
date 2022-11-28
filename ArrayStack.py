@@ -1,5 +1,5 @@
-# This is the list implementation of a stack, there is also a linked list implementation. You will find it in the repo.
-class Stack:
+# This is the array implementation of a stack, there is also a linked list implementation. You will find it in the repo.
+class ArrayStack:
     def __init__(self):
         self._data = []
 
@@ -12,7 +12,7 @@ class Stack:
     def pop(self):
         if self.is_empty():
             raise Exception('Stack is empty')
-        self._data.pop()
+        return self._data.pop()
 
     def is_empty(self):
         return len(self._data) == 0
