@@ -1,12 +1,21 @@
 # Common Data Structures and Algorithms Using Python
 
-This is going to be an open source library for common data structures and algorithms.
-Everything will be written using Python. I might decide to create two versions of each data structure and algorithm,
-one would be the basic version, and one would be with some added features by myself.
-But for now I will only work on the basic version of each. Note that the basic version will NOT include exception
-handling or input checks. As in the name, they will be the most basic version of that particular algorithm or
-data structure's implementation.
+## Goal
+The goal is to gather most of the popular and common data structures and 
+algorithms in one  repository. And for consistency in terms of coding style, 
+I will be coding all the files myself. Note that I'm only a Computer Science 
+student, and I'm coding these, as I'm learning them. I'm studying "Data 
+Structures and Algorithms in Python" by Michael T. Goodrich et al. to write these.
 
-I'm merely a Computer Science student, and I'm going to write my code whilst studying professor Michael T. Goodrich's book.
-If you find any problems in any of the solutions, or you think I should add a data structure or an algorithm,
-please let me know through an email, or just send a pull request.
+## Naming System
+The first part of each file's name will be the algorithm or the data structure's
+name, and after that will be the implementation method (if there are multiple).
+Since I will be coding two variations of each file, one basic and simple version,
+and another one with more added features by me, files are going to be specified 
+with either (Basic) or (Added Features) in the filename.
+
+## Final Words
+For now, I'm only going to work on the basic variations, and after I'm finished
+I will work on Added Features on my free time. If you see any issues with an 
+implementation, let me know or send a pull request.
+
