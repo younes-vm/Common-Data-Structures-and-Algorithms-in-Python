@@ -1,7 +1,7 @@
 """
 This is an array based queue. I have also uploaded an implementation using linked lists. Check out the repo.
 Note that this code is for queues with maximum capacities, I've implemented another code without this limitation.
-Check out ArrayQueue (Unlimited).py in the repo.
+Check out "Queue - Array (Unlimited) (Basic).py" in the repo.
 """
 
 
