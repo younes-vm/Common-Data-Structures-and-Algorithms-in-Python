@@ -1,5 +1,5 @@
 # This is the array implementation of a stack, there is also a linked list implementation. You will find it in the repo.
-class ArrayStack:
+class Stack:
     def __init__(self):
         self._data = []
 

@@ -5,9 +5,8 @@ class Node:
         self.prev = None
 
 
-class LinkedListStack:
+class Stack:
     def __init__(self):
-        self._head = None
         self._tail = None
         self._counter = 0
 
@@ -19,8 +18,7 @@ class LinkedListStack:
 
     def push(self, data):
         if self.is_empty():
-            self._head = Node(data)
-            self._tail = self._head
+            self._tail = Node(data)
         else:
             new_tail = Node(data)
             new_tail.prev = self._tail
